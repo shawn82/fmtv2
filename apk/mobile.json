@@ -1,5 +1,5 @@
 {
-  "name": "3.0.7",
-  "desc": "* 更新样式\n* 添加Label",
-  "code": 307
+  "name": "3.0.8",
+  "desc": "* 添加Token/SVIP过期检测",
+  "code": 308
 }

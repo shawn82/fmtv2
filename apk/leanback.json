@@ -1,5 +1,5 @@
 {
-  "name": "3.0.8",
-  "desc": "* 修复云备份bug",
-  "code": 308
+  "name": "3.0.9",
+  "desc": "* 添加Token/SVIP续期弹窗",
+  "code": 309
 }

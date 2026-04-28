@@ -1,5 +1,5 @@
 {
-	"name": "3.2.1",
-	"desc": "* Me 页面：紧凑重设计，行式布局，内联续期按钮\n* Home：点击 logo 打开 FMTV 频道选择（追剧/神秘频道）\n* Home：长按 logo 刷新接口\n* 刷新：抑制 notice toast，显示「接口已刷新」提示\n* Setting：禁用 VOD/Live bar 点击，仅显示名称",
-	"code": 321
+	"name": "3.2.2",
+	"desc": "* 电台：Now Playing 显示当前播放歌曲（ICY metadata）\n* 电台：横屏、TV 版同步支持 Now Playing\n* Me 页面：SVIP/Token 状态和剩余天数颜色标注",
+	"code": 322
 }

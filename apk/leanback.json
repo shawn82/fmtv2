@@ -1,5 +1,5 @@
 {
-	"name": "3.2.1",
-	"desc": "* Home：双击上键刷新接口\n* 刷新：抑制 notice toast，显示「接口已刷新」提示\n* Setting：禁用 VOD/Live bar 点击，仅显示名称",
-	"code": 321
+	"name": "3.2.2",
+	"desc": "* 电台：Now Playing 显示当前播放歌曲（ICY metadata）\n* 电台：TV 版支持 Now Playing",
+	"code": 322
 }

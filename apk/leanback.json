@@ -1,5 +1,5 @@
 {
-	"name": "3.2.2",
-	"desc": "* 电台：Now Playing 显示当前播放歌曲（ICY metadata）\n* 电台：TV 版支持 Now Playing",
-	"code": 322
+	"name": "3.2.3",
+	"desc": "* YouTube：修复无法播放问题，支持多分辨率选择",
+	"code": 323
 }

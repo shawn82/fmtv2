@@ -1,5 +1,5 @@
 {
-	"name": "3.3.7",
-	"desc": "* TV 遥控页 vod.html 新增「📱 手机播放」模式：可直接在手机用 Artplayer + hls.js 播放采集站直链\n* 支持 m3u8 / mp4 自动识别，全屏 modal 内播放，可与「📺 推送 TV」一键切换",
-	"code": 337
+	"name": "3.3.8",
+	"desc": "* 全新品牌图标：3D 立方体 FMTV logo 替换全套启动器图标 + 自适应图标\n* TV launcher banner 重新合成：左侧 logo + 右侧粗体「FMTV」+ 深色背景\n* 应用内 logo 同步更新（splash 启动屏、对话框等）",
+	"code": 338
 }

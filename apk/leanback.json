@@ -1,5 +1,5 @@
 {
-	"name": "3.3.9",
-	"desc": "* 修复 TV launcher banner 在小米 PatchWall 等启动器上显示成小方块图标的问题：banner 资源从 mipmap/ 迁回 drawable-xhdpi/，manifest 改用 @drawable/ic_banner（Android TV 标准位置）",
-	"code": 339
+	"name": "3.4.0",
+	"desc": "* 版本号与 mobile 对齐（TV 版本次无功能变更，主要改动集中在手机版邀请码弹窗 + 邀请落地页分享卡片）",
+	"code": 340
 }

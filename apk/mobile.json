@@ -1,5 +1,5 @@
 {
-	"name": "3.4.0",
-	"desc": "* Me 页面「生成邀请码」整套弹窗重构为 dialog_invite_code 风格：圆形彩色图标 + 卡片式布局\n  - 选 Token 弹窗（橙色 share 图标 + token 列表）\n  - 备注设置 / 修改弹窗（紫色 edit 图标 + TextInputLayout）\n  - 分享设置弹窗（蓝色 timer 图标，Spinner 改为 ChipGroup 选有效期 / 使用次数）\n  - 分享码生成结果弹窗（绿色 check 图标 + 授权码 / 链接 + 端点图标点击复制；修复之前白底主题问题）\n* 邀请落地页（fmtv.xyz/invite）补齐 Open Graph + Twitter Card + 微信分享缩略图 meta，分享到 WhatsApp / Telegram / Line / Facebook / 微信 都会显示完整卡片（标题 + 描述 + 1200×630 推广图）",
-	"code": 340
+	"name": "3.4.1",
+	"desc": "* Me 页面「生成邀请码」新增分享记录管理\n  - 选 Token 弹窗左下角增加「查看记录」按钮（与「取消」同排）\n  - 分享记录弹窗：紫色 history 图标 + 卡片列表（授权码 / Token 名 / 过期时间 / 使用次数）\n  - 单条「撤销」按钮 + 已撤销状态置灰\n  - 底部新增「全部撤销」「清除记录」「关闭」三键\n    · 全部撤销：一键回收所有活跃授权码（带二次确认）\n    · 清除记录：可仅清除非活跃（已撤销 / 已过期 / 已用完），或确认后清除全部\n* 邀请链接复制按钮改为分享按钮，点击拉起 Android 系统分享面板（WhatsApp / Telegram / 微信等聊天 App，复制链接也作为系统选项之一）",
+	"code": 341
 }

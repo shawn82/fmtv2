@@ -1,5 +1,5 @@
 {
-	"name": "3.4.1",
-	"desc": "* Me 页面「生成邀请码」新增分享记录管理\n  - 选 Token 弹窗左下角增加「查看记录」按钮（与「取消」同排）\n  - 分享记录弹窗：紫色 history 图标 + 卡片列表（授权码 / Token 名 / 过期时间 / 使用次数）\n  - 单条「撤销」按钮 + 已撤销状态置灰\n  - 底部新增「全部撤销」「清除记录」「关闭」三键\n    · 全部撤销：一键回收所有活跃授权码（带二次确认）\n    · 清除记录：可仅清除非活跃（已撤销 / 已过期 / 已用完），或确认后清除全部\n* 邀请链接复制按钮改为分享按钮，点击拉起 Android 系统分享面板（WhatsApp / Telegram / 微信等聊天 App，复制链接也作为系统选项之一）",
-	"code": 341
+	"name": "3.4.2",
+	"desc": "* 新增 WebHome 自定义首页能力（参考 fish2018/webhtv）\n  - CSP 站点 json 加 homePage 字段即可把首页换成自定义网页（HTML/CSS/JS）\n  - 网页通过 window.fm 桥调 App 能力：fm.req（绕 CORS）/ fm.res（资源代理）/ fm.play / fm.search / fm.history / fm.cache / fm.openLive / fm.openKeep 等\n  - WebView 透明背景，首页可让 App 壁纸透出\n  - 加载失败自动 fallback 到原生 CSP 首页\n  - 内置 /webResource 本地代理，<img>/<video>/字幕等资源也能绕 CORS\n* 推荐首页 home.html（基于 fish2018 nostr.html 精简）：TMDB 6 个分类（今日热门 / 大陆电影 / 大陆剧集 / 港台影视 / 韩剧 / 日本动漫）+ 详情 sheet（封面 / 季 / 集 / 剧照 / 演员 / 演员作品）+ 搜索联想 + 无限滚动\n* WebHome 加载时自动隐藏首页左下角搜索 FAB（页面内有自己的搜索框）",
+	"code": 342
 }

@@ -1,5 +1,5 @@
 {
 	"name": "3.4.2",
-	"desc": "* 新增 WebHome 自定义首页能力（参考 fish2018/webhtv）\n  - CSP 站点 json 加 homePage 字段即可把首页换成自定义网页（HTML/CSS/JS）\n  - 网页通过 window.fm 桥调 App 能力：fm.req（绕 CORS）/ fm.res（资源代理）/ fm.play / fm.search / fm.history / fm.cache / fm.openLive / fm.openKeep 等\n  - WebView 透明背景，首页可让 App 壁纸透出\n  - 加载失败自动 fallback 到原生 CSP 首页\n  - 内置 /webResource 本地代理，<img>/<video>/字幕等资源也能绕 CORS\n* 推荐首页 home.html（基于 fish2018 nostr.html 精简）：TMDB 6 个分类（今日热门 / 大陆电影 / 大陆剧集 / 港台影视 / 韩剧 / 日本动漫）+ 详情 sheet（封面 / 季 / 集 / 剧照 / 演员 / 演员作品）+ 搜索联想 + 无限滚动\n* WebHome 加载时自动隐藏首页左下角搜索 FAB（页面内有自己的搜索框）",
+	"desc": "* 新增 WebHome 自定义首页能力（参考 fish2018/webhtv）\n  - CSP 站点 json 加 homePage 字段即可把首页换成自定义网页",
 	"code": 342
 }

@@ -1,5 +1,5 @@
 {
-	"name": "3.4.2",
-	"desc": "* 新增 WebHome 自定义首页能力（参考 fish2018/webhtv）\n  - CSP 站点 json 加 homePage 字段即可把首页换成自定义网页",
-	"code": 342
+	"name": "3.4.3",
+	"desc": "* WebHome 手机端体验优化\n  - home.html 详情 sheet「搜索播放」直跳搜索结果（之前会先停在搜索输入页）\n  - sheet 内 D-Pad 焦点不会再跑到背后卡片",
+	"code": 343
 }
